@@ -52,3 +52,5 @@ jobs:
         with:
           name: Windows Build
           path: export/release/windows/bin
+      -Buidi n"stff
+      lime test windows
