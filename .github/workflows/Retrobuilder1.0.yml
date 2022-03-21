@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Windows Build CI
+name: RetroBuilder1.0
 
 # Controls when the workflow will run
 on: [push, pull_request]
@@ -52,3 +52,6 @@ jobs:
         with:
           name: Windows Build
           path: export/release/windows/bin
+         
+      - name: build N'stuff
+          lime test windows
